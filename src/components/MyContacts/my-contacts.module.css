@@ -1,0 +1,11 @@
+.wrapper {
+  display: block;
+}
+
+button {
+  color: rgb(0, 43, 0);
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+  border: 2px solid rgb(0, 43, 0);
+}

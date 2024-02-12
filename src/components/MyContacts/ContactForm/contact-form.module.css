@@ -1,0 +1,11 @@
+.formPlace {
+  border: 2px solid black;
+  padding: 20px 40px 20px 15px;
+}
+
+.inputName,
+.inputTel {
+  display: block;
+  padding: 10px;
+  border: 2px solid darkblue;
+}
