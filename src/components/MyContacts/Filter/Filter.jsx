@@ -1,6 +1,6 @@
 import styles from './filter.module.css';
 
-const Filter = ({ changeFilter }) => {
+const Filter = ({ onChangeFilter }) => {
   return (
     <div>
       <label className={styles.filterLabel} htmlFor="filter">
@@ -8,7 +8,7 @@ const Filter = ({ changeFilter }) => {
       </label>
       <input
         id="filter"
-        onChange={changeFilter}
+        onChange={onChangeFilter}
         className={styles.inputFilter}
         name="filter"
         placeholder="Search"
